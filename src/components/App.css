@@ -14,14 +14,17 @@
 body {
   min-width: 100%;
   height: 95vh;
-  background-color: rgb(226, 192, 192);
+  background:url(./../Images/Login_background.jpg);
+  background-position: center;
+  background-repeat: 0;
+  background-size: cover;
   align-items: center;
   justify-content: center;
   display: flex;
+
 }
 
 .container {
-  background-color: aliceblue;
   padding: 48px 31px;
   height: 400px;
   width: 280px;
@@ -41,8 +44,19 @@ body {
   margin-bottom: 20px;
 }
 
+label {
+  color: #fff;
+  font-size: 15px;
+}
+
+form h1 {
+  font-family: var(--form-text);
+  font-size: 44px;
+  color: #fff;
+}
 .form-button, .btn {
   width: 100%;
+  font-size: 20px;
   padding: 15px;
   background-color: rgb(4, 40, 130);
   color: white;
@@ -57,7 +71,7 @@ body {
 
 input {
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
   border: 2px solid rgb(85, 155, 190);
   border-radius: 5px;
 }
